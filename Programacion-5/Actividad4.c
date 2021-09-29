@@ -10,6 +10,6 @@ scanf("%f",&radio);
 radio = pi * radio * radio;
 perimetro = 2 * pi * radio;
 
-printf ("Su circulo de radio %f tiene un área y perimetro de %f y %f centimetros respectivamente\n", radio, area, perimetro);
+printf ("Su circulo de radio %f tiene un área y perimetro de %2.f y %2.f centimetros respectivamente\n", radio, area, perimetro);
     return 0;
 }
