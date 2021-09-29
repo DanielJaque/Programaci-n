@@ -16,8 +16,8 @@ scanf("%f",&notarea3);
 printf("Ingresa el promedio que sacaste en los talleres\n");
 scanf("%f",&notalleres);
 
-notaa3 = (4.0 - 0.5 * (0.2 * notarea1 + 0.25 * notarea2 + 0.35 * notarea3 + 0.2 * notalleres) - 0.5 * (0.2 * nota1 + 0.35 * nota2)) / (0.5 * 0.45);
+nota3 = (4.0 - 0.5 * (0.2 * notarea1 + 0.25 * notarea2 + 0.35 * notarea3 + 0.2 * notalleres) - 0.5 * (0.2 * nota1 + 0.35 * nota2)) / (0.5 * 0.45);
 
-printf("La nota que necesitas para aprovar es %.1f, espero que apruebes")
+printf("La nota que necesitas para aprovar es %.1f, espero que apruebes");
 return 0;
 }
